@@ -12,6 +12,10 @@ public class Animal implements Pattern{
 	public void move() {
 		System.out.println(name + " is moving by speed of " + speed + " km/h!");
 	}
+	@Override
+	public String toString() {
+		return "Animal [name=" + name + ", speed=" + speed + "]";
+	}
 	
 	
 	
